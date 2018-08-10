@@ -1,7 +1,7 @@
 const Discord = require('discord.js') ;
 const bot = new Discord.Client();
 
-bot.login('NDY3ODE2Njg4NTg3Mzc0NTk1.Dk4GTw.odQxEIAlkpsl6IuU7ZpTxuU9ZFM');
+bot.login('bVaRPwl72aBKZ_n3RhRRVrq6Iieete5F');
 
 bot.on('message', message => {
     if (message.content.startsWith('/convite')){
