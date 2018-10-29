@@ -35,7 +35,7 @@ fs.readdir("./comandos", (err, files) => {
 
 bot.on('ready', () => {
     console.log(`O bot ${bot.user.username} ficou online com sucesso.`)
-    bot.user.setActivity("amor para 260 pessoas ", {type: "PLAYING"});
+    bot.user.setActivity("**AMOR PARA 260 PESSOAS**", {type: "PLAYING"});
 });
 
 bot.on('message', message => {
