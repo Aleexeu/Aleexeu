@@ -9,7 +9,7 @@ bot.on('guildMemberAdd', member =>
 );
 
 bot.on('guildMemberAdd', member => {
-    if (member.guild.id !== "502572122015662092") return;
+    if (member.guild.id !== "501021782787227648") return;
     let avatar = member.user.avatarURL
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
