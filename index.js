@@ -5,7 +5,7 @@ const bot = new Discord.Client();
 bot.commands = new Discord.Collection();
 
 bot.on('guildMemberAdd', member => 
-    member.addRole("502577773605421056")
+    member.addRole("476927204845027348")
 );
 
 bot.on('guildMemberAdd', member => {
@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member => {
         .addField('Você é o membro de numero:', member.guild.memberCount)
         .setDescription("Obrigado por entrar leia as regras e seja feliz!")
         .setTimestamp()
-    bot.channels.get('502580899657809944').send({embed})});
+    bot.channels.get('501021782787227648').send({embed})});
 
 fs.readdir("./comandos", (err, files) => {
     if(err) console.error(err);
