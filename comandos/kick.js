@@ -16,7 +16,7 @@ let kickEmbed = new Discord.RichEmbed()
 .addField("Time:", message.createdAt)
 .addField("Motivo:", kReason);
 
-let kickChannel = message.guild.channels.find(`name`, "punições");
+let kickChannel = message.guild.channels.find(`name`, "⛔°banimentos°⛔");
 if(!kickChannel) return message.channel.send("Não encontrei o canal #punições.");
 
 message.guild.member(kUser).kick(kReason);
