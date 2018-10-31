@@ -9,7 +9,7 @@ bot.on('guildMemberAdd', member =>
 );
 
 bot.on('guildMemberAdd', member => {
-    if (member.guild.id !== "502572122015662092") return;
+    if (member.guild.id !== "460256625652006940") return;
     let avatar = member.user.avatarURL
     let embed = new Discord.RichEmbed()
         .setColor('RANDOM')
@@ -20,7 +20,7 @@ bot.on('guildMemberAdd', member => {
         .addField('Você é o membro de numero:', member.guild.memberCount)
         .setDescription("Obrigado por entrar leia as regras e seja feliz!")
         .setTimestamp()
-    bot.channels.get('502580899657809944').send({embed})});
+    bot.channels.get('502884411407335426').send({embed})});
 
 fs.readdir("./comandos", (err, files) => {
     if(err) console.error(err);
@@ -46,7 +46,7 @@ bot.on("message", async message => {
 
 bot.on('ready', () => {
     console.log(`O bot ${bot.user.username} ficou online com sucesso.`)
-    bot.user.setActivity("**BISCOITO PARA 260 MEMBROS** ", {type: "PLAYING"});
+    bot.user.setActivity("**ADADE** ", {type: "PLAYING"});
 });
 
 bot.on('message', message => {
